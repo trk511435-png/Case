@@ -3,221 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>قضية مقتل ابن رجل الأعمال #26152</title>
+    <title>ملف قضية رقم 26152 | مقتل ابن رجل الأعمال</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Cairo', sans-serif;
-            background-color: #11141a;
-            background-image: radial-gradient(#1e2430 1px, transparent 1px);
-            background-size: 24px 24px;
+            background-color: #0b0f17;
             color: #e2e8f0;
         }
         .police-file {
             font-family: 'Amiri', serif;
-            background-color: #f4ebd0;
+            background-color: #f3e9d2;
             color: #2b2b2b;
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
         }
         .classified-stamp {
             border: 3px solid #b91c1c;
             color: #b91c1c;
-            transform: rotate(-4deg);
-            font-family: 'Cairo', sans-serif;
+            transform: rotate(-3deg);
         }
-        .envelope {
-            background: #e2d2b5;
+        .envelope-card {
+            background: #1e293b;
+            border: 1px solid #334155;
             transition: all 0.3s ease;
         }
-        .envelope:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        .envelope-card:hover {
+            border-color: #b91c1c;
+            transform: translateY(-3px);
         }
     </style>
 </head>
-<body class="min-h-screen flex flex-col justify-between p-4 md:p-8">
+<body class="min-h-screen flex flex-col justify-between">
 
-    <!-- رأس الصفحة -->
-    <header class="max-w-4xl mx-auto w-full text-center mb-8">
-        <div class="inline-block classified-stamp px-6 py-1 text-lg font-black uppercase tracking-wider rounded bg-red-100/10 mb-2">
-            سري للغاية • قضية رقم 26152
+    <!-- رأس الصفحة الرسمي -->
+    <header class="bg-slate-900 border-b border-slate-800 py-6 px-4 shadow-xl text-center">
+        <div class="max-w-4xl mx-auto">
+            <div class="inline-block classified-stamp px-4 py-1 text-xs font-black uppercase tracking-wider rounded bg-red-100/5 mb-2">
+                سري للغاية • وحدة التحقيقات الجنائية
+            </div>
+            <h1 class="text-2xl md:text-3xl font-black text-white">ملف القضية رقم: 26152</h1>
+            <p class="text-slate-400 text-sm mt-1">الضحية: سامي سالم[span_5](start_span)[span_5](end_span) | تاريخ الوفاة: 2011/04/23[span_6](start_span)[span_6](end_span) | الموقع: المنزل (مدينة السبل)[span_7](start_span)[span_7](end_span)[span_8](start_span)[span_8](end_span)</p>
         </div>
-        <h1 class="text-3xl md:text-4xl font-black text-white tracking-wide">ملف تحقيق: مقتل ابن رجل الأعمال</h1>
-        <p class="text-slate-400 text-sm mt-1">الضحية: سامي سالم | تاريخ الوفاة: 2011/04/23 | المكان: المنزل (مدينة السبل)</p>
     </header>
 
     <!-- المحتوى الرئيسي -->
-    <main class="max-w-3xl mx-auto w-full space-y-6">
+    <main class="max-w-4xl mx-auto p-4 md:p-6 my-6 w-full space-y-6">
 
-        <!-- 1. الورقة الترحيبية وملف القضية -->
-        <section id="welcome-section" class="police-file p-6 md:p-8 rounded-lg relative border-4 border-[#d4c39d]">
-            <div class="absolute -top-3 right-6 bg-red-700 text-white text-xs px-3 py-1 font-bold rounded shadow">مكتب التحقيقات</div>
+        <!-- الورقة الترحيبية وملف القضية -->
+        <section class="police-file p-6 md:p-8 rounded-lg shadow-2xl relative border-4 border-[#d4c39d]">
+            <div class="absolute -top-3 right-6 bg-red-800 text-white text-xs px-3 py-1 font-bold rounded">الوراق الترحيبية الرسمية</div>
             
-            <h2 class="text-2xl font-bold text-red-900 mb-4 border-b-2 border-red-900/20 pb-2">مرحباً أيها المحقق...</h2>
-            <div class="space-y-3 text-lg leading-relaxed text-slate-800">
+            <h2 class="text-2xl font-bold text-red-900 mb-4 border-b border-red-900/20 pb-2">مرحباً أيها المحقق...</h2>
+            <div class="space-y-4 text-lg leading-relaxed text-slate-800">
                 <p>
-                    نرجع سوا بالماضي إلى شهر إبريل من سنة 2011 في مدينة السبل، وتحديداً اليوم اللي انتشر فيه الرعب بين سكان المدينة بعد ما سمعوا بخبر مقتل الشاب <strong>"سامي"</strong> ولد رجل الأعمال المشهور <strong>"سالم صلاح الغريب"</strong>، والموضوع الغريب إنه انقتل وهو نايم!
+                    نرجع سوا بالماضي إلى شهر إبريل من سنة 2011 في مدينة السبل، وتحديداً اليوم اللي انتشر فيه الرعب بين سكان المدينة بعد ما سمعوا بخبر مقتل الشاب <strong>"سامي"</strong> ولد رجل الأعمال المشهور <strong>"سالم صلاح الغريب"</strong>، والموضوع الغريب إنه انقتل وهو نايم[span_9](start_span)[span_9](end_span)!
                 </p>
-                <p class="font-bold text-red-900">
-                    مهمتك الآن يامحققنا البطل إنك تساعد رجال الشرطة يوصلون للقاتل ويقفلون القضية اللي لها سنين طويلة ما أحد قدر يحلها.
+                <p>
+                    المحقق اللي قبلك جمع لك مستندات وصور وأدلة ملموسة من مسرح الجريمة عشان تبدأ منها. المطلوب منك الآن إنك تلقي نظرة عليها وتحللها بدون ما تفتح الأظرف البيضاء فوراً؛ أولاً تعرف على مسرح الجريمة والشهود والمشتبه فيهم وجمع أفكارك[span_10](start_span)[span_10](end_span).
                 </p>
-            </div>
-
-            <div class="mt-6 p-4 bg-[#e9dbbc] rounded border border-[#d2be92] text-sm text-slate-700">
-                <p class="font-bold mb-1">📌 كيف تلعب وتبدأ تحقيقك؟</p>
-                <p>ملف القضية يحتوي على أظرف مهام مغلقة. تصفح مسرح الجريمة والأدلة بحذر دون فتح الأظرف عشوائياً، وافتح كل ظرف في وقته المناسب لتحليل الألغاز والوصول للحقيقة.</p>
-            </div>
-
-            <div class="mt-6 text-center">
-                <button onclick="startMission1()" class="bg-red-800 hover:bg-red-900 text-white font-bold px-8 py-3 rounded shadow-lg transition duration-300">
-                    فتح مسرح الجريمة والبدء بالمهمة الأولى 🗂️
-                </button>
             </div>
         </section>
 
-        <!-- 2. منطقة الأظرف والمهام (تظهر تدريجياً) -->
-        <section id="mission-container" class="hidden space-y-6">
+        <!-- الأظرف الأربعة وملفات التحقيق (بدون أسئلة، عرض واقعي للأدلة) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             
-            <!-- لوحة عرض الأدلة الحالية -->
-            <div class="police-file p-6 rounded-lg border-2 border-[#d4c39d]">
-                <div class="flex justify-between items-center mb-4 border-b border-slate-400 pb-2">
-                    <h3 id="current-mission-title" class="text-xl font-bold text-red-900">المهمة الأولى: فحص مسرح الجريمة</h3>
-                    <span id="mission-badge" class="bg-red-800 text-white text-xs px-3 py-1 rounded font-bold">الظرف الأول</span>
+            <!-- الظرف الأول -->
+            <div class="envelope-card p-5 rounded-lg shadow-lg">
+                <div class="flex justify-between items-center mb-3">
+                    <span class="text-xs bg-red-600 text-white px-2.5 py-1 rounded font-bold">الظرف الأبيض الأول</span>
+                    <span class="text-xs text-slate-400">مسرح الجريمة</span>
                 </div>
-                
-                <div id="mission-text" class="text-slate-800 text-lg leading-relaxed space-y-3">
-                    <!-- سيتم تعبئته بواسطة الجافاسكريبت -->
-                </div>
-
-                <!-- خانة إدخال الإجابة أو الحل -->
-                <div class="mt-6 pt-4 border-t border-slate-400/50 space-y-3">
-                    <label id="question-label" class="block font-bold text-red-900 text-sm"></label>
-                    <div class="flex flex-col md:flex-row gap-3">
-                        <input type="text" id="answer-input" placeholder="اكتب استنتاجك هنا..." class="flex-1 bg-white border border-slate-400 rounded px-4 py-2 text-slate-900 focus:outline-none focus:border-red-800">
-                        <button onclick="verifyAnswer()" class="bg-red-800 hover:bg-red-900 text-white font-bold px-6 py-2 rounded shadow transition duration-300">
-                            تحقق من الإجابة 🔍
-                        </button>
-                    </div>
-                    <div class="flex justify-between items-center mt-2">
-                        <p id="error-message" class="text-red-700 font-bold text-xs hidden">❌ إجابة خاطئة! راجع الأدلة وحاول مجدداً.</p>
-                        <button onclick="showHint()" class="text-xs text-blue-900 underline font-bold">💡 طلب تلميح (باركود المساعدة)</button>
-                    </div>
-                    <p id="hint-box" class="text-xs text-amber-900 bg-amber-100 p-2 rounded hidden mt-1"></p>
-                </div>
+                <h3 class="text-lg font-bold text-white mb-2">معطيات الغرفة والسرير</h3>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                    غرفة نوم الضحية في قصر العائلة. الأبواب والنوافذ مغلقة بإحكام من الداخل تماماً، ولا توجد أي آثار عنف أو كسر، ووجِد الضحية نائماً على فراشه دون مقاومة ظاهرة.
+                </p>
             </div>
 
-        </section>
-
-        <!-- 3. شاشة الفوز النهائية -->
-        <section id="victory-section" class="hidden police-file p-8 rounded-lg text-center space-y-6 border-4 border-green-800">
-            <div class="inline-block bg-green-100 text-green-800 p-4 rounded-full text-4xl mb-2 border border-green-600">
-                🏆
+            <!-- الظرف الثاني -->
+            <div class="envelope-card p-5 rounded-lg shadow-lg">
+                <div class="flex justify-between items-center mb-3">
+                    <span class="text-xs bg-red-600 text-white px-2.5 py-1 rounded font-bold">الظرف الأبيض الثاني</span>
+                    <span class="text-xs text-slate-400">أقوال الشهود</span>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">شهادة المقربين والحراس</h3>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                    استجوابات الحرس الشخصي والمقربين في تلك الليلة. تضمنت الأقوال تناقضات واضحة في توقيتات دخول بعض الأشخاص وتحركاتهم بالقرب من الجناح الخاص بسامي.
+                </p>
             </div>
-            <h2 class="text-3xl font-black text-green-900">شهادة شكر وتقدير لمحققينا الرهيب!</h2>
-            <p class="text-slate-800 text-lg max-w-lg mx-auto leading-relaxed">
-                لقد استطعت بحكتك وذكاء استنتاجاتك فتح الأظرف الأربعة، تحليل مسرح الجريمة، وكشف هوية القاتل في القضية رقم 26152 لتتحقق العدالة بعد سنين طويلة!
+
+            <!-- الظرف الثالث -->
+            <div class="envelope-card p-5 rounded-lg shadow-lg">
+                <div class="flex justify-between items-center mb-3">
+                    <span class="text-xs bg-red-600 text-white px-2.5 py-1 rounded font-bold">الظرف الأبيض الثالث</span>
+                    <span class="text-xs text-slate-400">الأدلة المادية</span>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">تقارير المختبر الجنائي</h3>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                    فحص محتويات الطاولة المجاورة للسرير وكوب المشروب. أظهرت الفحوصات وجود آثار مادة كيميائية مركزة غير مرئية تم دسها باحترافية شديدة.
+                </p>
+            </div>
+
+            <!-- الظرف الرابع -->
+            <div class="envelope-card p-5 rounded-lg shadow-lg">
+                <div class="flex justify-between items-center mb-3">
+                    <span class="text-xs bg-red-600 text-white px-2.5 py-1 rounded font-bold">الظرف الأبيض الرابع</span>
+                    <span class="text-xs text-slate-400">الخلاصة والاتهام</span>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">المستندات والدوافع المالية</h3>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                    وثائق تركة والد الضحية، الخزنة المفتوحة، والمفقودات التي كانت موضوع نزاع سري بين أفراد العائلة والشركاء التجاريين.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- صندوق التلميح والتعليمات الواقعية -->
+        <section class="bg-slate-900 border border-slate-800 p-6 rounded-lg text-center space-y-3">
+            <h3 class="text-red-500 font-bold text-lg">💡 تعليمات المحقق المسؤول</h3>
+            <p class="text-slate-300 text-sm max-w-xl mx-auto leading-relaxed">
+                لا تستسلم إذا صعبيت عليك مهمة.. دقق في التفاصيل، اربط الأدلة ببعضها، وعند الحاجة يمكنك مسح الباركود الموجود على كرت التعليمات الحقيقي للحصول على التلميح والتحقق من نظريتك[span_11](start_span)[span_11](end_span). نتنتظرك تحل القضية وتساعدنا في تحقيق العدالة!
             </p>
-            <div class="pt-4">
-                <button onclick="location.reload()" class="bg-slate-900 hover:bg-slate-800 text-white font-bold px-6 py-2 rounded shadow">
-                    إعادة التحقيق من جديد 🔄
-                </button>
-            </div>
         </section>
 
     </main>
 
     <!-- تذييل الصفحة -->
-    <footer class="text-center py-6 text-xs text-slate-500">
-        جميع الحقوق محفوظة © منصة ألعاب الغموض والتحقيق الجنائي
+    <footer class="bg-slate-900 border-t border-slate-800 py-4 text-center text-xs text-slate-500">
+        جميع الحقوق محفوظة © قضايا الغموض والتحقيق الجنائي الحقيقي
     </footer>
 
-    <!-- منطق اللعبة والتفاعل -->
-    <script>
-        let currentStep = 0;
-
-        const gameData = [
-            {
-                title: "المهمة الأولى: فحص مسرح الجريمة والشهود الأولية",
-                badge: "الظرف الأبيض الأول",
-                content: `
-                    <p><strong>معطيات مسرح الجريمة:</strong> وُجد الشاب سامي متوفياً على سريره في جناحه الخاص داخل قصر والده. الأبواب والنوافذ مغلقة بإحكام من الداخل، ولا توجد أي آثار عنف أو كسر.</p>
-                    <p>المحقق السابق ترك لك ملاحظة: <em>"ابدأ بالتعرف على مسرح الجريمة والشهود والمشتبه بهم قبل فتح باقي الأظرف البيضاء"</em>.</p>
-                `,
-                question: "السؤال الأول: ما هي الطريقة أو الأداة الأرجح التي استخدمها الجاني لدخول الغرفة أو إيذاء الضحية دون كسر الأبواب؟ (اكتب مفتاح أو سم أو عمالة)",
-                answer: "سم",
-                hint: "تلميح: الوفاة حدثت أثناء النوم، ولم يكن هناك اقتحام مادي للأبواب، فكر فيما يدخل الجسم دون صوت."
-            },
-            {
-                title: "المهمة الثانية: استجواب المقربين (الظرف الثاني)",
-                badge: "الظرف الأبيض الثاني",
-                content: `
-                    <p>بعد فتح الظرف الثاني، ظهرت تقارير التحقيق مع ثلاثة أشخاص تواجدوا قرب القصر تلك الليلة. أحدهم ظهرت عليه علامات التوتر الشديد وتناقضت أقواله حول وقت وصوله.</p>
-                `,
-                question: "السؤال الثاني: من هو الشخص الذي ثبت تناقض أقواله في التحقيقات الأولية؟ (حارس / شريك / قريب)",
-                answer: "حارس",
-                hint: "تلميح: راجع توقيت دخول البوابات وكلام المسؤول عن الحراسة."
-            },
-            {
-                title: "المهمة الثالثة: تحليل الأدلة المخبرية (الظرف الثالث)",
-                badge: "الظرف الأبيض الثالث",
-                content: `
-                    <p>بتحليل الآثار المتبقية في كوب المشروب بجانب السرير وجد المختبر الجنائي آثار مادة كيميائية مركزة غير مألوفة.</p>
-                `,
-                question: "السؤال الثالث: ما هي المادة الرئيسية التي أثبتها التقرير المخبري في كوب الضحية؟",
-                answer: "مادة سامة",
-                hint: "تلميح: المادة تم إعطاؤها بشكل خفي."
-            },
-            {
-                title: "المهمة الرابعة والأخيرة: الحكم القبض على القاتل (الظرف الرابع)",
-                badge: "الظرف الأبيض الرابع والأخير",
-                content: `
-                    <p class="text-red-900 font-bold">لقد وصلت للظرف الأخير والأكثر خطورة! كل الأدلة أصبحت أمامك على الطاولة، حان الوقت لإصدار أمر القبض النهائي وإغلاق القضية للأبد.</p>
-                `,
-                question: "السؤال النهائي: من هو القاتل الحقيقي المسؤول عن مقتل سامي سالم؟",
-                answer: "القاتل", // استبدلها باسم الشخصية الحقيقي في لعبتك
-                hint: "تلميح: راجع الدافع المالي والمستندات المفقودة من الخزنة."
-            }
-        ];
-
-        function startMission1() {
-            document.getElementById('welcome-section').classList.add('hidden');
-            document.getElementById('mission-container').classList.remove('hidden');
-            loadStep();
-        }
-
-        function loadStep() {
-            if (currentStep < gameData.length) {
-                document.getElementById('current-mission-title').innerText = gameData[currentStep].title;
-                document.getElementById('mission-badge').innerText = gameData[currentStep].badge;
-                document.getElementById('mission-text').innerHTML = gameData[currentStep].content;
-                document.getElementById('question-label').innerText = gameData[currentStep].question;
-                document.getElementById('answer-input').value = '';
-                document.getElementById('error-message').classList.add('hidden');
-                document.getElementById('hint-box').classList.add('hidden');
-            } else {
-                document.getElementById('mission-container').classList.add('hidden');
-                document.getElementById('victory-section').classList.remove('hidden');
-            }
-        }
-
-        function verifyAnswer() {
-            const userAns = document.getElementById('answer-input').value.trim();
-            const correctAns = gameData[currentStep].answer;
-
-            if (userAns.includes(correctAns) || userAns !== "") {
-                currentStep++;
-                loadStep();
-            } else {
-                document.getElementById('error-message').classList.remove('hidden');
-            }
-        }
-
-        function showHint() {
-            const hintBox = document.getElementById('hint-box');
-            hintBox.innerText = gameData[currentStep].hint;
-            hintBox.classList.remove('hidden');
-        }
-    </script>
 </body>
 </html>
